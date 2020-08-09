@@ -290,6 +290,7 @@ ul {
   .header .header__img {
     width: 100%;
     justify-content: center;
+    z-index: -1;
   }
 
   .header .header__img img{
