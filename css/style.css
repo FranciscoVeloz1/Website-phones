@@ -19,7 +19,6 @@ ul {
   list-style: none;
 }
 
-
 /* Navigation */
 .nav-main {
   background-color: #f8f9fa !important;
@@ -47,11 +46,11 @@ ul {
 
 .nav-main ul li a:hover {
   /* border-bottom: 2px solid #8C8B88;  */
-  color: #8C8B88;
+  color: #8c8b88;
 }
 
 /* Header */
-.header{
+.header {
   width: 100%;
   height: 600px;
   margin-top: 20px;
@@ -95,21 +94,21 @@ ul {
   background-color: white;
   color: #595959;
   font-size: 20px;
-  border: 2px solid #8C8B88;
+  border: 2px solid #8c8b88;
   border-radius: 10px;
   margin: 15px 0;
 }
 
 .btn:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /* Testimonial */
 .testimonial {
-  background-color: #f1f1f1;
+  background-color: #eeeeee;
   font-size: 20px;
   padding: 50px 100px;
-  text-align:center;
+  text-align: center;
   margin-top: 40px;
 }
 
@@ -118,7 +117,7 @@ ul {
 }
 
 /* Info-one */
-.info-one{
+.info-one {
   width: 100%;
   height: 600px;
   margin-top: 20px;
@@ -129,7 +128,7 @@ ul {
 .info-one__img {
   height: 600px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .info-one .info-one__img img {
@@ -169,4 +168,80 @@ ul {
 .info-two .content h2 {
   font-size: 30px;
   margin: 20px 0;
+}
+
+/* Contact */
+.contact {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 600px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+
+.content__container {
+  background-color: white;
+  border: 2px solid #8c8b88;
+  border-radius: 10px;
+  padding: 60px 20px;
+  min-height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.content__container h2 {
+  margin-bottom: 20px;
+}
+
+.content__container--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid #8c8b88;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  outline: none;
+  height: 50px;
+  font-size: 15px;
+}
+
+.textarea {
+  background-color: transparent;
+  border: 2px solid #8c8b88;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  outline: none;
+  height: 100px;
+  font-size: 15px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.contact__img {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .contact__img img {
+  height: 100%;
 }
