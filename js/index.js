@@ -7,44 +7,44 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
 window.sr = ScrollReveal();
 
 sr.reveal(".nav-main", {
-  duration: 1000,
+  duration: 2000,
   origin: "bottom",
 });
 
 sr.reveal(".menu-btn", {
-  duration: 1000,
+  duration: 2000,
   origin: "bottom",
 });
 
 
 sr.reveal(".header__img", {
-  duration: 1000,
+  duration: 2000,
   origin: "left",
   distance: "300px",
 });
 
 sr.reveal(".header .content", {
-  duration: 1000,
-  origin: "right",
+  duration: 2000,
+  origin: "top",
   distance: "300px",
 });
 
 sr.reveal(".testimonial", {
-	duration: 1000,
+	duration: 2000,
 	origin: "left",
 	viewFactor: 0.2
 });
 
 sr.reveal(".info-one__img", {
-  duration: 1000,
+  duration: 2000,
   origin: "left",
 	distance: "300px",
 	delay: 200
 });
 
 sr.reveal(".info-one .content", {
-  duration: 1000,
-  origin: "right",
+  duration: 2000,
+  origin: "top",
 	distance: "300px",
 	delay: 200
 });
@@ -52,14 +52,14 @@ sr.reveal(".info-one .content", {
 sr.reveal(".info-two", { delay: 400 });
 
 sr.reveal(".contact__img", {
-  duration: 1000,
+  duration: 2000,
   origin: "right",
 	distance: "300px",
 	delay: 400
 });
 
 sr.reveal(".contact .content", {
-  duration: 1000,
+  duration: 2000,
   origin: "left",
 	distance: "300px",
 	delay: 400
