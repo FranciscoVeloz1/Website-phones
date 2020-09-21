@@ -25,7 +25,7 @@ sr.reveal(".header__img", {
 
 sr.reveal(".header .content", {
   duration: 2000,
-  origin: "top",
+  origin: "right",
   distance: "300px",
 });
 
@@ -44,7 +44,7 @@ sr.reveal(".info-one__img", {
 
 sr.reveal(".info-one .content", {
   duration: 2000,
-  origin: "top",
+  origin: "right",
 	distance: "300px",
 	delay: 400
 });
@@ -60,7 +60,7 @@ sr.reveal(".contact__img", {
 
 sr.reveal(".contact .content", {
   duration: 2000,
-  origin: "top",
+  origin: "left",
 	distance: "300px",
 	delay: 400
 });
