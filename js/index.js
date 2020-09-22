@@ -53,7 +53,7 @@ sr.reveal(".info-two", { delay: 400 });
 
 sr.reveal(".contact__img", {
   duration: 2000,
-  origin: "bottom",
+  origin: "top",
 	distance: "300px",
 	delay: 400
 });
