@@ -53,12 +53,7 @@ sr.reveal(".info-two", { delay: 400 });
 
 sr.reveal(".contact__img", { delay: 1000 });
 
-sr.reveal(".contact .content", {
-  duration: 2000,
-  origin: "left",
-	distance: "300px",
-	delay: 400
-});
+sr.reveal(".contact .content", { delay: 1000 });
 
 //Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
