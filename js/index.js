@@ -51,12 +51,7 @@ sr.reveal(".info-one .content", {
 
 sr.reveal(".info-two", { delay: 400 });
 
-sr.reveal(".contact__img", {
-  duration: 2000,
-  origin: "top",
-	distance: "300px",
-	delay: 400
-});
+sr.reveal(".contact__img", { delay: 400 });
 
 sr.reveal(".contact .content", {
   duration: 2000,
