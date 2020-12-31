@@ -4,6 +4,7 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import Testimonial from '../components/Testimonial'
+import InfoOne from '../components/InfoOne'
 
 //Importing Hooks
 import useInitialState from '../hooks/useInitialState'
@@ -17,6 +18,7 @@ const App = () => {
             <Navigation />
             <Header />
             <Testimonial />
+            <InfoOne />
         </div>
     )
 }
